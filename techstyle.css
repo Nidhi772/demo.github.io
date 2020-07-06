@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+ font-family: 'Montserrat', sans-serif;
+} 
+
+header{
+background-image: url("fade.jpg");
+background-size: cover;
+height: 100vh;
+background-repeat: no-repeat;
+} 
+
+.clearfix:after{
+content: '';
+visibility: hidden;
+height: 0px;
+clear: both;
+} 
+.row{
+max-width: 1180px;
+margin: 0 auto;
+}
+.row h3{
+height: 120px;
+width: auto;
+float: left;
+margin-top: 30px;
+color: white; 
+font-size: 40px; ''
+} 
+.fill{
+color:orange;
+}
+
+.main-nav{
+float: right;
+margin-top: 60px;
+} 
+
+.main-nav li{
+display: inline-block;
+list-style: none;
+margin-left: 40px;
+} 
+
+.main-nav li a{
+padding: 5px 0;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 90%;
+font-weight: 100px; 
+border-bottom: 1px solid orange;
+} 
+
+.main-nav a.first{
+color: orange;
+} 
+.main-content-header{
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%,-50%);
+} 
+
+h1{
+color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: lighter;
+}
+
+.btn{
+display: inline-block;
+padding: 10px 30px;
+font-size: lighter;
+text-decoration: none;
+text-transform: uppercase;
+border: 1px solid white;
+}
+
+.btn-full{
+background-color: orange;
+color: black;
+margin-right: 15px;
+border: 1px solid white;
+}
+
+.btn-nav{
+color: orange;
+font-weight: bold;
+background-color: tranparent;
+} 
+
+.main-nav li a:hover{
+border-bottom: 2px solid orange;
+color: orange;
+}
+
+.btn-full:hover{
+background-color: white;
+color: black;
+} 
+
+.btn-nav:hover{
+background-color: grey;
+color: black;
+}
+
+.row h3:hover{
+color: orange;
+}
+
+.xy{
+color: orange;
+} 
+
+.mobile-icon{
+display:  none;
+} 
+
+
+
+@media only screen and (max-width: 1207px){
+
+.main-nav{
+margin-right: 6%;
+}
+
+.row h3{
+ margin-left: 5%;
+}
+}
+
+@media only screen and (max-width: 998px){
+.main-content-header{
+
+font-size: 12px;
+}
+
+.xy{
+font-weight: bold;
+} 
+
+.btn{
+margin-bottom: 10px; 
+} 
+}
+
+@media only screen and (max-width: 768px){
+h1{
+font-size: 180%;
+}
+
+
+
+}
+@media only screen and (max-width: 595px){ 
+
+.main-nav{
+margin-top: 30px;
+}
+
+
+.main-nav li{
+float: left;
+display: block;
+margin-top: 10px;
+}
+
+.h1{
+font-size: 10px;
+}
+.btn-nav{
+margin-bottom: 30px; 
+}
+h1{
+font-size: 160%;
+}
+}
+
+@media only screen and (max-width: 595px){
+h1{
+font-size: 180%;
+}
+.main-nav{
+display: none;
+}
+
+.mobile-icon{
+display: inline-block;
+color: orange;
+float: right; 
+margin-top: 30px;
+margin-right: 20px; 
+font-size: 25px;
+}
+
+.main-nav{
+float: left; 
+}
+
+.main-nav li{  
+display: block; 
+float: none;
+margin-top: 10px;  
+
+} 
+}
+ 
+
+
+
+
+/*
+@media only screen and (max-width: 1180px){
+.main-content-header{
+  width: 100%;
+  padding: 0 2%;
+} 
+}
+ 
+@media only screen and (max-width: 998px){
+h1{
+font-size: 200%;
+} 
+}
+
+@media only screen and (max-width: 768px){
+
+h1{
+font-size: 180%;
+}
+.main-nav{
+display: none;
+float: left; 
+}
+
+.mobile-icon{
+display: inline-block;
+color: orange;
+float: right; 
+margin-top: 30px;
+margin-right: 20px; 
+font-size: 25px;
+}
+
+.main-nav ul{
+float: left; 
+}
+
+.main-nav li{  
+
+display: block; 
+.main-nav{
+display: none;
+float: left; 
+}
+
+.mobile-icon{
+display: inline-block;
+color: orange;
+float: right; 
+margin-top: 30px;
+margin-right: 20px; 
+font-size: 25px;
+}
+
+.main-nav ul{
+float: left; 
+}
+
+.main-nav li{  
+
+display: block; 
+
+}
+
+*/
